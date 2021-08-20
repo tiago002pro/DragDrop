@@ -8,7 +8,7 @@ html {
 .boards {
     display: flex;
     margin-top: 32px;
-    height: 300px;
+    height: auto;
 }
 
 .board {
@@ -51,4 +51,19 @@ html {
 }
 .status.red {
     background: red;
+}
+.hightlight {
+    background-color: #FD951F08;
+}
+
+.card, .dropzone {
+    transition: 400ms;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 0.3;
+}
+.over {
+    background-color: #4cd13711;
 }
